@@ -5,6 +5,7 @@ import Blogs from './Components/Blogs/Blogs';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
+import Notfound from './Components/Notfound/Notfound';
 import Register from './Components/Register/Register';
 import Services from './Components/Services/Services';
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
+        <Route path="*" element={<Notfound></Notfound>}></Route>
       </Routes>
     </div>
   );

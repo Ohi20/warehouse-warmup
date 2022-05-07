@@ -6,7 +6,7 @@ import './Header.css';
 const Header = () => {
     return (
         <div>
-           <h2 className='text-info'>Website Title</h2>
+           <h2 className='text-info'>Speedo</h2>
        <div className='container-fluid d-flex justify-content-between'>
        <div>
         <Navbar bg="dark" variant="dark">
@@ -19,6 +19,7 @@ const Header = () => {
       <Link to="/blogs">Blogs</Link>
       <Link to="/login">Login</Link>
       <Link to="/register">Register</Link>
+      
     </Nav>
     </Container>
   </Navbar>
@@ -29,7 +30,7 @@ const Header = () => {
        </div>
   
         </div>
-        
+
     );
 };
 
