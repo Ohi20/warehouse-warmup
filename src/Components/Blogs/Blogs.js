@@ -49,6 +49,14 @@ Commodity hardware
 Cross-platform support, Secure and free
 Easy to use, High performance, and Flexible tool.</p>   
             </div>
+            <div>
+                <h2>What is the purpose of jwt and how does it work?</h2>
+                <p>A JWT is a mechanism to verify the owner of some JSON data. It’s an encoded, URL-safe string that can contain an unlimited amount of data unlike a cookie and is cryptographically signed.
+
+When a server receives a JWT, it can guarantee the data it contains can be trusted because it’s signed by the source. No middleman can modify a JWT once it’s sent.JWT is a particularly useful technology for API authentication and server-to-server authorization.you get a secret token from the service when you set up the API:On the client side, you create the token (there are many libraries for this) using the secret token to sign it.
+
+When you pass it as part of the API request, the server will know it’s that specific client because the request is signed with its unique identifier:</p>
+            </div>
         </div>
     );
 };
